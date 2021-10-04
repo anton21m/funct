@@ -1014,7 +1014,7 @@ Strings\startsWith('wants to change the world', "politicians"); // => false
 
 ### strip($string, ...$removeSubStr)
 
-Returns a new string with all occurrences of [string1], [...removeSubStr], removed.
+Returns a new string with all occurrences of [...removeSubStr], removed.
 
 ```PHP
 Strings\strip(' 1 2 3--__--4 5 6-7__8__9--0', ' ', '_', '-'); // => '1234567890'
