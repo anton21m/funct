@@ -732,7 +732,7 @@ Strings\camelize('data_rate'); //'dataRate'
 Strings\camelize('background-color'); //'backgroundColor'
 Strings\camelize('-moz-something'); //'MozSomething'
 Strings\camelize('_car_speed_'); //'CarSpeed'
-Strings\camelize('yes_we_can'); //'yesWeCan'Strings\camelize(
+Strings\camelize('yes_we_can'); //'yesWeCan'
 ```
 
 ### chompLeft($input, $prefix)
