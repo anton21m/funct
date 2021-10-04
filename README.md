@@ -1012,9 +1012,9 @@ Strings\startsWith("AN is a software engineer", "AN"); // => true
 Strings\startsWith('wants to change the world', "politicians"); // => false
 ```
 
-### strip($string, $string1)
+### strip($string, ...$removeSubStr)
 
-Returns a new string with all occurrences of [string1],[string2],... removed.
+Returns a new string with all occurrences of [string1], [...removeSubStr], removed.
 
 ```PHP
 Strings\strip(' 1 2 3--__--4 5 6-7__8__9--0', ' ', '_', '-'); // => '1234567890'
