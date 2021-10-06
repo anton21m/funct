@@ -690,7 +690,7 @@ Collection\findWhere(
 ```
 
 
-### without($collection, $without)
+### without(array $collection, string ...$without)
 
 Returns a copy of the array with all instances of the values removed.
 
